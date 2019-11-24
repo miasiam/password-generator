@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Password Gen</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="welcome"><center>Welcome to Password Gem, Your Password Gen</center></h1>
+        <p>Your local resource for mining a gem-infused passcode with no pressure!</p>
+        
+
+        <div class = generate>
+        How many characters? <input type = "number" id="charNum" value="12" min="8" max="12"/><br />
+        Include Numbers: <input type="checkbox" id="num"/>
+        <br/>
+        Include Symbols:<input type="checkbox" id="sym"/>
+        <br />
+        <br/>
+        <button id="submit">Generate Your Gem </button>
+        <br/>
+        <br/>
+        <h1>Your Password: <input type="text" id="yourPw" /></h1>
+
+        </div>
+        <footer>We apologize for any inconvenience or error for generating
+            numbers and symbols upon request, we are currently digging for technical 
+            issues. Thankyou for being a gem of patience! - admin
+        </footer>
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>

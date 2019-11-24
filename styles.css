@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+body{
+    background-color: rgb(203, 221, 215);
+    border: black 5px dotted;
+}
+
+p{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+
+.generate{
+    text-align: center;
+    font-size: 32px;
+}
+
+input#num{
+    width: 20px;
+    height: 20px;
+}
+
+input#sym{
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20;
+}
